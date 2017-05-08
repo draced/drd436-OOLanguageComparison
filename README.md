@@ -2,7 +2,6 @@
 ## Daniel Darnold, drd436
 This repository contains documentation and examples of the differences between the two Object Oriented languages C++ and Java. 
 * [Language purpose/genesis](https://github.com/draced/drd436-OOLanguageComparison/blob/master/purpose.md)
-* [Unique features of the language](https://github.com/draced/drd436-OOLanguageComparison/blob/master/unique_features.md)
 * [Name spaces](https://github.com/draced/drd436-OOLanguageComparison/blob/master/namespaces.md)
 * [Types](https://github.com/draced/drd436-OOLanguageComparison/blob/master/types.md)
 * [Classes](https://github.com/draced/drd436-OOLanguageComparison/blob/master/classes.md)
