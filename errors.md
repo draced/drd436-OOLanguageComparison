@@ -24,11 +24,11 @@ int main()
    return 0;
 }
 ~~~~
-* Output:
+* This will generate output:
 ~~~~
 Exception occurred: thrown value is -1
 ~~~~
-* There is a special catch called “catch all” that can catch all kind of exceptions.
+* There is a special catch called `catch all` that can catch all kind of exceptions.
 * All exceptions are unchecked.
 ## Java
 * Only throwable objects (Throwable objects are instances of any subclass of the Throwable class) can be thrown as exception.
@@ -38,7 +38,7 @@ catch(Exception e){
   …….
 }
 ~~~~
-* There is a block called finally that is always executed after the try-catch block. Example:
+* There is a block called `finally` that is always executed after the try-catch block. Example:
 ~~~~
 // creating an exception type
 class Test extends Exception { }
@@ -59,4 +59,4 @@ class Main {
 }
 ~~~~
 * There are two types of exceptions – checked and unchecked.
-* A new keyword throws is used to list exceptions that can be thrown by a function.
+* A new keyword `throws` is used to list exceptions that can be thrown by a function.
