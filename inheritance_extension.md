@@ -36,10 +36,12 @@ class ABC :public A, public B, public C
 	//here you can access m_iA, m_iB, m_iC 
 };
 ~~~~
+* Multilevel inheritance is possible. Multilevel inheritance represents a type of inheritance when a Derived class is a base class for another class. In other words, deriving a class from a derived class is known as multi-level inheritance. 
 ## Java
 * All classes inherit from the Object class directly or indirectly. Therefore, there is always a single inheritance tree of classes in Java, and Object class is root of the tree. If we create a class that doesn’t inherit from any class then it automatically inherits from Object class.
 * Members of the grandparent class are not directly accessible.
 * Protected members of a class “A” are accessible in other class “B” of same package, even if B doesn’t inherit from A (they both have to be in the same package). For example, in the following program, protected members of A are accessible in B.
+* Hierarchical inheritance is possible which allows you to to create multiple Derived classes that inherit properties of the same Base class.
 ~~~~
 class A {
     protected int x = 10, y = 20;
