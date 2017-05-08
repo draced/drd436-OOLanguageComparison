@@ -2,15 +2,12 @@
 * C++ was designed for systems and applications programming, extending the procedural programming language C, which was designed for efficient execution. To C, C++ added support for object oriented programming, exception handling, lifetime-based resource management, generic programming, template metaprogramming, and the C++ Standard Library which includes generic containers and algoithms, and many other general purpose facilities.
   * Goals of C++:
   * Extends C with object-oriented programming and generic programming. C code can most properly be used.
-  * Compatible with C source code, except for a few corner cases.
+  * Compatible with C source code.
   * Write once, compile anywhere (WOCA).
-  * Allows procedural programming, functional programming, object-oriented programming, generic programming, and template metaprogramming. Favors a mix of paradigms.
   * Runs as native executable machine code for the target instruction set(s).
   * Provides object types and type names. Allows reflection via run-time type information (RTTI).
   * Has multiple binary compatibility standards (commonly Microsoft (for MSVC compiler) and Itanium/GNU (for almost all other compilers)).
   * Optional automated bounds checking (e.g., the at() method in vector and string containers).
-  * Native unsigned arithmetic support.
-  * Standardized minimum limits for all numerical types, but the actual sizes are implementation-defined. Standardized types are available via the standard library <cstdint>.
 * Java is a general-purpose, concurrent, class-based, object-oriented programming language that is designed to minimize implementation dependencies. It relies on a Java virtual machine to be secure and highly portable. It is bundled with an extensive library designed to provide a full abstraction of the underlying platform. Java is statically typed object-oriented language that uses a syntax similar to C++.
   *Goals of Java:
   * Provides the Java Native Interface and recently Java Native Access as a way to directly call C/C++ code.
