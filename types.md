@@ -5,6 +5,7 @@
 * Provides object types and type names. Allows reflection via run-time type information (RTTI).
 * Pointers, references, and pass-by-value are supported for all types (primitive or user-defined).
 * Allows explicitly overriding types, and some implicit narrowing conversions (for compatibility with C).
+* `const` keyword for defining immutable variables and member functions that do not change the object. Const-ness is propagated as a means to enforce, at compile-time, correctness of the code with respect to mutability of objects.
 ## Java
 * 	Standardized limits and sizes of all primitive types on all platforms.
 * 	All types (primitive types and reference types) are always passed by value.'
