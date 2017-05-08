@@ -9,7 +9,7 @@
   * Has multiple binary compatibility standards (commonly Microsoft (for MSVC compiler) and Itanium/GNU (for almost all other compilers)).
   * Optional automated bounds checking (e.g., the at() method in vector and string containers).
 * Java is a general-purpose, concurrent, class-based, object-oriented programming language that is designed to minimize implementation dependencies. It relies on a Java virtual machine to be secure and highly portable. It is bundled with an extensive library designed to provide a full abstraction of the underlying platform. Java is statically typed object-oriented language that uses a syntax similar to C++.
-  *Goals of Java:
+  * Goals of Java:
   * Provides the Java Native Interface and recently Java Native Access as a way to directly call C/C++ code.
   * Write once, run anywhere/everywhere (WORA/WORE).
   * All operations are required to be bound-checked by all compliant distributions of Java.
